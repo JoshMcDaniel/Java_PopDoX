@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Form">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Josh McDaniel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<title>Web Form</title>
+
+<body>
+    <div class="center">
+        <h2>Enter company information</h2>
+
+        <p>The information provided in this form will be used to populate the selected documents.</p>
+    </div>
+
+    <form class="form-style" action="" method="post">
+
+        <label for="field1">
+            <span>Company Name</span><input type="text" name="field1" required="true" />
+        </label>
+        <input type="file" name="pic" accept="image/*" class="browseButton">
+        <label for="imgUpload">
+            <input type="submit" value="Submit" />
+        </label>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
